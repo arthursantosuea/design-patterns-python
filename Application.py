@@ -6,8 +6,8 @@ from Context import Context
 class Application:
     def __init__(self):
         context = Context()
-        pointA = int(input("Enter point A: "))
-        pointB = int(input("Enter point B: "))
+        pointA = int(input("Digite o primeiro número: "))
+        pointB = int(input("Digite o segundo número: "))
         action = input("Digite a operação: ")
 
         if action == "add":

@@ -1,6 +1,6 @@
 import abc
-import Strategy
-class ConcreteStrategyAdd(Strategy.Strategy):
+from Strategy import Strategy
+class ConcreteStrategyAdd(Strategy):
     @abc.abstractmethod
     def execute(self, pointA, pointB):
         return pointA + pointB

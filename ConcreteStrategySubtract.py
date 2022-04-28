@@ -1,7 +1,7 @@
 import abc
-import Strategy
+from Strategy import Strategy
 
-class ConcreteStrategySubtract(Strategy.Strategy):
+class ConcreteStrategySubtract(Strategy):
     @abc.abstractmethod
     def execute(self, pointA, pointB):
         return pointA - pointB
